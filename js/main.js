@@ -3,7 +3,7 @@
       const c = setTimeout(() => {
         document.body.classList.remove("not-loaded");
 
-        const titles = (' Happy 9th monthiversary').split('');
+        const titles = (' For Warren Leander only ').split('');
         const titleElement = document.getElementById('title');
         let index = 0;
 
@@ -21,7 +21,7 @@
           } else {
             // Setelah teks utama selesai, tambahkan subtitle kecil
             const subtitle = document.createElement('p');
-            subtitle.innerText = "Selamat 9 bulan ya mas, semoga aku dan kamu semakin bertumbuh baik kedepannya. you know i’ll always choose & love you. I love you in my always and all ways";
+            subtitle.innerText = "Beautiful flowers for gorgeous man, i love you my dearest";
             subtitle.style.fontSize = '20px'; // Ukuran font lebih kecil
             subtitle.style.marginTop = '2px'; // Spasi antara teks utama dan subtitle
             subtitle.style.color = '#fff'; // Warna abu-abu untuk teks subtitle
